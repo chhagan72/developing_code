@@ -32,4 +32,10 @@ git branch -D <branch name> (To delete forcefully branch).
 27> git reset <filename> (To reset staging area where you have add your code or file ).
 28> git reset . (To reset file or code).
 29> git reset --hard (To reset code or file from both working directory and staging area).
-
+30> git revert <commit id> ( To use undo and exsting commits).
+31> git clean -n/-f (To use dry run(-n) and forcefully(-f) delete untracked file).
+32> git tag (To see the list of the tag ).
+33> git tag -a <tagname> -m <message><commit id> (To apply the tag on commit).
+34> git show <tagname> (To show perticulat tag).
+35> git tag -d <tagname> (To delete tag).
+36> git clone <url github repository> (To clone github repository in your local repository).
