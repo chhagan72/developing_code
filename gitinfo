@@ -3,3 +3,47 @@ Git is a DevOps tool used for source code management. It is a free and open-sour
 
 * Git History *
 Git was originally authored by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development. Since 2005, Junio Hamano has been the core maintainer.
+
+* Git Commands *
+* GIT COMMANDS *
+01> git --version
+02> git config --global user.name "ram"
+03> git config --global user.email "ram1212@gmail.com"
+04> git config --list (show user name and email id).
+05> git init (The create a new git repository in your directory.)
+06> git status (The check git status).
+07> git add . (The add your file working space to staging area).
+08> git commit -m "massege" (The commit your file in local repository).
+09> git log (The show who did sed commit ).
+10> git show <enter commit id> (show code in your commit id that what can here write).
+11> git remote add origin <centeral repository url> (the add with centeral repository).
+12> git remote push -u origin master (Push the code or file in your centeral repository).
+13> git remote set-url origin <centeral repository url> (The add new centeral repository).
+13> git remote -v
+14> git pull -u origin master (Pull the code pr file on your centeral repository).
+15> git add .gitignore (The first you set that you not add this file which you have not add and 
+commit for eg. .css,.java).
+16> git log -1/-2 (The show latest commit).
+17> git log --oneline (The show all commit one time single line).
+18> git log --grep "type any words on commit" ( The show specific commit ).
+19> git branch (To see all available branch ).
+20> git branch <branch name> (To create a new branch).
+21> git checkout <branch name> (To change and switch branch).
+22> git branch -d <branch name>( The delete simple branch) or 
+git branch -D <branch name> (To delete forcefully branch).
+23> git merge <branch name> (The merges your branches).
+24> git stash (To stash your item in stashing area).
+25> git stash list (The show the list of all stashing file ).
+26> git stash apply <stash@{0}> ( The apply stashed item ).
+26> git stash clear (To clear stashing area).
+27> git reset <filename> (To reset staging area where you have add your code or file ).
+28> git reset . (To reset file or code).
+29> git reset --hard (To reset code or file from both working directory and staging area).
+30> git revert <commit id> ( To use undo and exsting commits).
+31> git clean -n/-f (To use dry run(-n) and forcefully(-f) delete untracked file).
+32> git tag (To see the list of the tag ).
+33> git tag -a <tagname> -m <message><commit id> (To apply the tag on commit).
+34> git show <tagname> (To show perticulat tag).
+35> git tag -d <tagname> (To delete tag).
+36> git clone <url github repository> (To clone github repository in your local repository).
+
