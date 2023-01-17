@@ -4,7 +4,6 @@ Git is a DevOps tool used for source code management. It is a free and open-sour
 * Git History *
 Git was originally authored by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development. Since 2005, Junio Hamano has been the core maintainer.
 
-* Git Commands *
 * GIT COMMANDS *
 01> git --version
 02> git config --global user.name "ram"
