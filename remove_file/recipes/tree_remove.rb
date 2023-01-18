@@ -1,5 +1,5 @@
 #
-# Cookbook:: tree_remove_file
+# Cookbook:: remove_file
 # Recipe:: tree_remove
 #
 # Copyright:: 2023, The Authors, All Rights Reserved.

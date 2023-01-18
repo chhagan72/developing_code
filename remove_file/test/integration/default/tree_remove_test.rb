@@ -1,4 +1,4 @@
-# Chef InSpec test for recipe tree_remove_file::tree_remove
+# Chef InSpec test for recipe remove_file::tree_remove
 
 # The Chef InSpec reference, with examples and extensive documentation, can be
 # found at https://docs.chef.io/inspec/resources/

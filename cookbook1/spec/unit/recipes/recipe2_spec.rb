@@ -1,12 +1,12 @@
 #
-# Cookbook:: tree_remove_file
-# Spec:: tree_remove
+# Cookbook:: cookbook1
+# Spec:: recipe2
 #
 # Copyright:: 2023, The Authors, All Rights Reserved.
 
 require 'spec_helper'
 
-describe 'tree_remove_file::tree_remove' do
+describe 'cookbook1::recipe2' do
   context 'When all attributes are default, on Ubuntu 20.04' do
     # for a complete list of available platforms and versions see:
     # https://github.com/chefspec/fauxhai/blob/main/PLATFORMS.md
